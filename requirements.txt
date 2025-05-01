@@ -32,7 +32,8 @@ matplotlib==3.10.1
 mpmath==1.3.0
 narwhals==1.37.1
 networkx==3.4.2
-numpy==2.2.5
+numpy==1.26.4
+
 opencv-python==4.11.0.86
 opencv-python-headless==4.11.0.86
 packaging==24.2
