@@ -33,7 +33,7 @@ st.sidebar.header("Configuration")
 @st.cache_resource
 def load_model():
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    model = YOLO("best.pt").to(device)
+    model = YOLO("defect_detector.pt").to(device)
     # Warm-up inference with correct input shape
     dummy = torch.zeros((1, 3, 640, 640), device=device)
     model.predict(dummy, conf=0.25, verbose=False)
