@@ -24,7 +24,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-st.title("🚀 YOLOv8 Real-Time Detection")
+st.title("🚀 YOLOv12 Real-Time Detection")
 st.sidebar.header("Configuration")
 
 # ────────────────────────────────────────────────────────────────────────────────
